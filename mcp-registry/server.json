@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
-  "name": "io.github.SignalRaven-ai/signalraven",
+  "name": "io.github.signalraven/signalraven",
   "description": "LinkedIn buying-intent signals, intelligence reports and delivery settings for your workspace.",
   "title": "SignalRaven",
   "websiteUrl": "https://signalraven.ai/mcp",
