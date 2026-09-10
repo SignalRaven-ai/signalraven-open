@@ -1,2 +1,3 @@
 # mcp-publisher writes login tokens next to server.json; never commit them
 .mcpregistry_*
+.DS_Store
