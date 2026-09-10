@@ -1,0 +1,58 @@
+{
+  "name": "SignalRaven signal → Slack",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "signalraven",
+        "authentication": "headerAuth",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "name": "SignalRaven signal",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [0, 0],
+      "notes": "In SignalRaven: Destinations → Add destination → n8n. Paste this node's production URL and the header name and value from the Header Auth credential."
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": { "caseSensitive": true, "leftValue": "", "typeValidation": "strict" },
+          "conditions": [
+            {
+              "id": "strength",
+              "leftValue": "={{ $json.body.strength }}",
+              "rightValue": 7,
+              "operator": { "type": "number", "operation": "gte" }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "name": "Score 7 or higher",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2,
+      "position": [260, 0]
+    },
+    {
+      "parameters": {
+        "select": "channel",
+        "channelId": { "__rl": true, "mode": "name", "value": "#signals" },
+        "text": "=⚡ *{{ $json.body.personName }}* · {{ $json.body.personTitle }} · {{ $json.body.personCompany }} · {{ $json.body.strength }}/10\n*Why now:* {{ $json.body.whyItMatters }}\n*Opener:* {{ $json.body.suggestedOpener }}\n<{{ $json.body.signalDetailUrl }}|View signal>",
+        "otherOptions": { "mrkdwn": true }
+      },
+      "name": "Post to Slack",
+      "type": "n8n-nodes-base.slack",
+      "typeVersion": 2.2,
+      "position": [520, -80]
+    }
+  ],
+  "connections": {
+    "SignalRaven signal": { "main": [[{ "node": "Score 7 or higher", "type": "main", "index": 0 }]] },
+    "Score 7 or higher": { "main": [[{ "node": "Post to Slack", "type": "main", "index": 0 }], []] }
+  },
+  "settings": { "executionOrder": "v1" },
+  "meta": { "templateCredsSetupCompleted": false }
+}

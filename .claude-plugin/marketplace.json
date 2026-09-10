@@ -1,0 +1,11 @@
+{
+  "name": "signalraven-open",
+  "owner": { "name": "SignalRaven", "email": "support@signalraven.ai" },
+  "plugins": [
+    {
+      "name": "signalraven",
+      "source": "./claude-code-plugin",
+      "description": "Research prospects and draft openers from SignalRaven's live LinkedIn buying-intent signals."
+    }
+  ]
+}

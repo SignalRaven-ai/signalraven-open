@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "signalraven": {
+      "type": "http",
+      "url": "https://api.signalraven.ai/mcp"
+    }
+  }
+}

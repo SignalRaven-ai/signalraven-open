@@ -1,0 +1,11 @@
+{
+  "name": "signalraven",
+  "description": "SignalRaven for Claude Code: research a prospect and draft openers from your workspace's live LinkedIn buying-intent signals.",
+  "version": "1.0.0",
+  "author": { "name": "SignalRaven", "email": "support@signalraven.ai", "url": "https://signalraven.ai" },
+  "homepage": "https://signalraven.ai/mcp",
+  "repository": "https://github.com/SignalRaven-ai/signalraven-open",
+  "license": "MIT",
+  "keywords": ["sales", "linkedin", "buying-intent", "mcp", "outreach"],
+  "mcpServers": "./.mcp.json"
+}
