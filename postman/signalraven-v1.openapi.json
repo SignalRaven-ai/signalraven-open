@@ -3,7 +3,7 @@
   "info": {
     "title": "SignalRaven API",
     "version": "1.0",
-    "description": "LinkedIn buying-intent signals, sources, watchlist and ICP for a SignalRaven workspace. OAuth 2.1 bearer tokens from auth.signalraven.ai; see https://signalraven.ai/developers.",
+    "description": "LinkedIn buying-intent signals, sources, watchlist and ICP for a SignalRaven workspace. OAuth 2.1 bearer tokens: create an API key in the app (Settings \u2192 API keys), exchange the client id and secret at https://auth.signalraven.ai/oauth2/token with the client_credentials grant. See https://signalraven.ai/developers.",
     "contact": {
       "name": "SignalRaven",
       "url": "https://signalraven.ai/developers",
