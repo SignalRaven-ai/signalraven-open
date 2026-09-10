@@ -17,48 +17,6 @@
     }
   ],
   "paths": {
-    "/api/v1/register": {
-      "post": {
-        "operationId": "registerClient",
-        "tags": [
-          "v1"
-        ],
-        "summary": "Register an OAuth/MCP client (identity-gated)",
-        "description": "Public + rate-limited. Requires a contact email + LinkedIn. Returns client credentials once; the client is pending platform approval (data endpoints return sample data until approved).",
-        "requestBody": {
-          "required": true,
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/V1RegisterBody"
-              }
-            }
-          }
-        },
-        "responses": {
-          "201": {
-            "description": "Client registered (pending approval)",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/V1RegisterResponse"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Validation error",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Error"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
     "/api/v1/signals": {
       "get": {
         "operationId": "v1ListSignals",
