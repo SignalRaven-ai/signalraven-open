@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "signalraven",
+  "version": "1.0.0",
+  "description": "LinkedIn buying-intent signals for your workspace: who is showing intent, why it matters, and what to say.",
+  "author": { "name": "SignalRaven", "email": "support@signalraven.ai", "url": "https://signalraven.ai" },
+  "homepage": "https://signalraven.ai/mcp",
+  "repository": "https://github.com/SignalRaven-ai/signalraven-open",
+  "license": "MIT",
+  "keywords": ["sales", "linkedin", "buying-intent", "prospecting", "outreach"],
+  "skills": "./skills",
+  "mcp": "./mcp.json",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "SignalRaven",
+        "shortDescription": "LinkedIn buying-intent signals, qualified against your ICP.",
+        "logo": "./assets/logo.png",
+        "composerIcon": "./assets/logo.png",
+        "category": "Sales"
+      }
+    }
+  }
+}
