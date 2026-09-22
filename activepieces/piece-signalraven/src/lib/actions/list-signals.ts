@@ -10,7 +10,7 @@ export const listSignals = createAction({
   displayName: 'List Signals',
   description: 'List qualified buying-intent signals, newest first, with optional minimum strength and type filters.',
   audience: 'both',
-  aiMetadata: { description: 'Lists SignalRaven buying-intent signals: each is a named person with title, company, a strength score out of 10, why it matters, and talking points. Supports minStrength and type filters and paging.' },
+  aiMetadata: { description: 'Lists SignalRaven buying-intent signals: each carries the person\'s company, LinkedIn profile and location, a strength score out of 10, why it matters, a suggested opener and talking points. Supports minStrength and type filters and paging.' },
   props: {
     minStrength: shared.minStrength,
     signalType: shared.signalType,

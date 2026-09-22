@@ -37,7 +37,7 @@ export const newSignal = createTrigger({
   displayName: 'New Signal',
   description: 'Triggers when SignalRaven qualifies a new buying-intent signal. Polls the API; use New Signal (Webhook) for instant delivery.',
   aiMetadata: {
-    description: 'Fires for each new SignalRaven buying-intent signal: a named person with title, company, strength score, why it matters, suggested opener and talking points. Polling; supports minimum strength and type filters.',
+    description: 'Fires for each new SignalRaven buying-intent signal: the person\'s company, LinkedIn profile and location, a strength score out of 10, why it matters, a suggested opener and talking points. Polling; supports minimum strength and type filters.',
   },
   props: {
     minStrength: shared.minStrength,
@@ -47,7 +47,7 @@ export const newSignal = createTrigger({
     id: '3f9c2a1e-0000-4000-8000-000000000001',
     type: 'KEYWORD_SEARCH_COMMENT',
     strength: 9,
-    person: { name: 'Marcus Feld', title: 'Director of Corporate Events', company: 'Halvorsen Consulting', linkedinUrl: 'https://www.linkedin.com/in/example' },
+    person: { company: 'Halvorsen Consulting', linkedinUrl: 'https://www.linkedin.com/in/example', location: 'London, UK' },
     whyItMatters: 'Director of Corporate Events is actively talking about venue holds disappearing for next year\'s leadership summit.',
     suggestedOpener: 'Saw your note on venue holds disappearing for next year\'s summit. How far out are you sourcing now?',
     talkingPoints: ['Venue holds are disappearing earlier this cycle.', 'Summit planning is starting earlier.'],

@@ -102,7 +102,7 @@ export type Signal = {
   id: string;
   type: string;
   strength: number;
-  person?: { name?: string; title?: string; company?: string; linkedinUrl?: string | null; location?: string | null };
+  person?: { company?: string | null; linkedinUrl?: string | null; location?: string | null };
   whyItMatters?: string | null;
   suggestedOpener?: string | null;
   talkingPoints?: string[] | null;

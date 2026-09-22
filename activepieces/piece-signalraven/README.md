@@ -13,7 +13,7 @@ Create an API key in SignalRaven (Settings → API keys at https://app.signalrav
 ## Triggers
 
 - **New Signal (Webhook)**: instant. Registers a webhook destination in your workspace and verifies each delivery's signature.
-- **New Signal**: polling, with minimum strength and type filters. Use it when the key has no `write:destinations` scope.
+- **New Signal**: polling, with minimum strength and type filters. Use it when the key has no `write:destinations` scope. Read-path signals carry the person's company, LinkedIn profile and location; the webhook delivery also carries the person's name and title.
 
 ## Actions
 
