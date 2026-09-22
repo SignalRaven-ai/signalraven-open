@@ -1,0 +1,19 @@
+{
+  "name": "signalraven-coda-pack",
+  "version": "0.1.0",
+  "description": "SignalRaven Pack for Coda: sync buying-intent signals, research reports and sources; run research from a button",
+  "scripts": {
+    "validate": "coda validate pack.ts",
+    "typecheck": "tsc -p tsconfig.json",
+    "execute": "coda execute pack.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@codahq/packs-sdk": "^1.17.6",
+    "@types/node": "^26.6.2",
+    "typescript": "^7.0.2"
+  },
+  "private": true
+}
