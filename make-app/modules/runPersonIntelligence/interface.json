@@ -1,0 +1,37 @@
+[
+  {
+    "name": "id",
+    "type": "text",
+    "label": "Report ID"
+  },
+  {
+    "name": "type",
+    "type": "text",
+    "label": "Report Type"
+  },
+  {
+    "name": "slug",
+    "type": "text",
+    "label": "Slug"
+  },
+  {
+    "name": "name",
+    "type": "text",
+    "label": "Name"
+  },
+  {
+    "name": "status",
+    "type": "text",
+    "label": "Status"
+  },
+  {
+    "name": "createdAt",
+    "type": "date",
+    "label": "Created At"
+  },
+  {
+    "name": "cached",
+    "type": "boolean",
+    "label": "Cached"
+  }
+]

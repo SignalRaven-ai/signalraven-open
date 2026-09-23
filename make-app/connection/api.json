@@ -1,0 +1,62 @@
+{
+  "token": {
+    "condition": true,
+    "url": "https://auth.signalraven.ai/oauth2/token",
+    "method": "POST",
+    "type": "urlencoded",
+    "body": {
+      "grant_type": "client_credentials",
+      "client_id": "{{parameters.clientId}}",
+      "client_secret": "{{parameters.clientSecret}}",
+      "scope": "{{parameters.scopes}}"
+    },
+    "response": {
+      "data": {
+        "expires": "{{addSeconds(now, body.expires_in)}}",
+        "accessToken": "{{body.access_token}}"
+      },
+      "error": {
+        "message": "[{{statusCode}}] {{ifempty(body.error_description, body.error)}}"
+      }
+    },
+    "log": {
+      "sanitize": ["request.body.client_secret", "response.body.access_token"]
+    }
+  },
+  "refresh": {
+    "condition": "{{data.expires < addMinutes(now, 5)}}",
+    "url": "https://auth.signalraven.ai/oauth2/token",
+    "method": "POST",
+    "type": "urlencoded",
+    "body": {
+      "grant_type": "client_credentials",
+      "client_id": "{{parameters.clientId}}",
+      "client_secret": "{{parameters.clientSecret}}",
+      "scope": "{{parameters.scopes}}"
+    },
+    "response": {
+      "data": {
+        "expires": "{{addSeconds(now, body.expires_in)}}",
+        "accessToken": "{{body.access_token}}"
+      }
+    },
+    "log": {
+      "sanitize": ["request.body.client_secret", "response.body.access_token"]
+    }
+  },
+  "info": {
+    "url": "https://api.signalraven.ai/api/v1/_authcheck",
+    "headers": {
+      "authorization": "Bearer {{connection.accessToken}}"
+    },
+    "response": {
+      "metadata": {
+        "type": "text",
+        "value": "SignalRaven ({{length(body.oauth.scopes)}} scopes)"
+      }
+    },
+    "log": {
+      "sanitize": ["request.headers.authorization"]
+    }
+  }
+}

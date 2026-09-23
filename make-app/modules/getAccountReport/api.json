@@ -1,0 +1,7 @@
+{
+  "url": "/intelligence/accounts/{{encodeURL(parameters.reportId)}}",
+  "method": "GET",
+  "response": {
+    "output": "{{body.data}}"
+  }
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "name": "activity",
+    "type": "collection",
+    "label": "Activity",
+    "spec": [
+      {
+        "name": "signalsThisMonth",
+        "type": "number",
+        "label": "Signals This Month"
+      },
+      {
+        "name": "signalsLastMonth",
+        "type": "number",
+        "label": "Signals Last Month"
+      },
+      {
+        "name": "activeSources",
+        "type": "number",
+        "label": "Active Sources"
+      },
+      {
+        "name": "postsMonitored",
+        "type": "number",
+        "label": "Posts Monitored"
+      }
+    ]
+  },
+  {
+    "name": "systemStatus",
+    "type": "collection",
+    "label": "System Status",
+    "spec": [
+      {
+        "name": "lastActivityAt",
+        "type": "date",
+        "label": "Last Activity"
+      },
+      {
+        "name": "operational",
+        "type": "boolean",
+        "label": "Operational"
+      }
+    ]
+  }
+]

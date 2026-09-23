@@ -1,0 +1,9 @@
+[
+  {
+    "name": "reportId",
+    "type": "text",
+    "label": "Report ID",
+    "required": true,
+    "help": "From List Intelligence Reports."
+  }
+]

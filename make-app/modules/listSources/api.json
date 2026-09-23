@@ -1,0 +1,12 @@
+{
+  "url": "/sources",
+  "method": "GET",
+  "qs": {
+    "period": "{{parameters.period}}"
+  },
+  "response": {
+    "iterate": "{{body.data}}",
+    "output": "{{item}}",
+    "limit": "{{parameters.limit}}"
+  }
+}

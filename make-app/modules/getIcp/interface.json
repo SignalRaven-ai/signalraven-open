@@ -1,0 +1,49 @@
+[
+  {
+    "name": "minEmployees",
+    "type": "number",
+    "label": "Min Employees"
+  },
+  {
+    "name": "maxEmployees",
+    "type": "number",
+    "label": "Max Employees"
+  },
+  {
+    "name": "targetIndustries",
+    "type": "array",
+    "label": "Industries",
+    "spec": {
+      "type": "text"
+    }
+  },
+  {
+    "name": "targetTitles",
+    "type": "array",
+    "label": "Titles",
+    "spec": {
+      "type": "text"
+    }
+  },
+  {
+    "name": "targetPersonas",
+    "type": "array",
+    "label": "Personas",
+    "spec": {
+      "type": "text"
+    }
+  },
+  {
+    "name": "targetSeniority",
+    "type": "array",
+    "label": "Seniority",
+    "spec": {
+      "type": "text"
+    }
+  },
+  {
+    "name": "additionalContext",
+    "type": "text",
+    "label": "Context"
+  }
+]

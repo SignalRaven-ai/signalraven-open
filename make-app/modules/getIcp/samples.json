@@ -1,0 +1,26 @@
+{
+  "minEmployees": 200,
+  "maxEmployees": 10000,
+  "targetIndustries": [
+    "Professional Services",
+    "Software Development",
+    "Financial Services"
+  ],
+  "targetTitles": [
+    "Head of Corporate Events",
+    "Director of Events",
+    "Event Marketing Manager",
+    "VP Marketing"
+  ],
+  "targetPersonas": [
+    "Event owners",
+    "Marketing leaders"
+  ],
+  "targetSeniority": [
+    "Manager",
+    "Director",
+    "Head",
+    "VP"
+  ],
+  "additionalContext": ""
+}

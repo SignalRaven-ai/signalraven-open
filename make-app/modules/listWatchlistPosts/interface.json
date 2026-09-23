@@ -1,0 +1,12 @@
+[
+  {
+    "name": "id",
+    "type": "text",
+    "label": "Post ID"
+  },
+  {
+    "name": "createdAt",
+    "type": "date",
+    "label": "Created At"
+  }
+]

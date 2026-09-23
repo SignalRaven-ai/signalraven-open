@@ -1,0 +1,7 @@
+{
+  "url": "/signals/{{encodeURL(parameters.signalId)}}",
+  "method": "GET",
+  "response": {
+    "output": "{{body.data}}"
+  }
+}

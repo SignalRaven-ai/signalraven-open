@@ -1,0 +1,17 @@
+{
+  "url": "/destinations",
+  "method": "POST",
+  "body": {
+    "destinationType": "webhook",
+    "name": "Make",
+    "config": {
+      "url": "{{webhook.url}}",
+      "method": "POST"
+    }
+  },
+  "response": {
+    "data": {
+      "externalHookId": "{{body.data.id}}"
+    }
+  }
+}

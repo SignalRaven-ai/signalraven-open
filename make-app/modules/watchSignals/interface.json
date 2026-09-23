@@ -1,0 +1,75 @@
+[
+  {
+    "name": "signalId",
+    "type": "text",
+    "label": "Signal ID"
+  },
+  {
+    "name": "signalDetailUrl",
+    "type": "url",
+    "label": "Signal URL"
+  },
+  {
+    "name": "signalType",
+    "type": "text",
+    "label": "Signal Type"
+  },
+  {
+    "name": "strength",
+    "type": "number",
+    "label": "Strength (1 to 10)"
+  },
+  {
+    "name": "personName",
+    "type": "text",
+    "label": "Person Name"
+  },
+  {
+    "name": "personTitle",
+    "type": "text",
+    "label": "Person Title"
+  },
+  {
+    "name": "personCompany",
+    "type": "text",
+    "label": "Company"
+  },
+  {
+    "name": "personLinkedinUrl",
+    "type": "url",
+    "label": "Person LinkedIn URL"
+  },
+  {
+    "name": "personLocation",
+    "type": "text",
+    "label": "Location"
+  },
+  {
+    "name": "companyIndustry",
+    "type": "text",
+    "label": "Company Industry"
+  },
+  {
+    "name": "companyEmployeeCount",
+    "type": "number",
+    "label": "Company Employee Count"
+  },
+  {
+    "name": "whyItMatters",
+    "type": "text",
+    "label": "Why It Matters"
+  },
+  {
+    "name": "suggestedOpener",
+    "type": "text",
+    "label": "Suggested Opener"
+  },
+  {
+    "name": "talkingPoints",
+    "type": "array",
+    "label": "Talking Points",
+    "spec": {
+      "type": "text"
+    }
+  }
+]

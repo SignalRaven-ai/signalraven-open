@@ -1,0 +1,6 @@
+{
+  "typeId": 1,
+  "label": "Watch Signals (Polling)",
+  "description": "Triggers when SignalRaven qualifies a new buying-intent signal, checked on a schedule. Use Watch Signals for instant delivery.",
+  "connection": "signalraven"
+}

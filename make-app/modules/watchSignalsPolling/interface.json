@@ -1,0 +1,67 @@
+[
+  {
+    "name": "id",
+    "type": "text",
+    "label": "Signal ID"
+  },
+  {
+    "name": "type",
+    "type": "text",
+    "label": "Signal Type"
+  },
+  {
+    "name": "strength",
+    "type": "number",
+    "label": "Strength (1 to 10)"
+  },
+  {
+    "name": "person",
+    "type": "collection",
+    "label": "Person",
+    "spec": [
+      {
+        "name": "company",
+        "type": "text",
+        "label": "Company"
+      },
+      {
+        "name": "linkedinUrl",
+        "type": "url",
+        "label": "LinkedIn URL"
+      },
+      {
+        "name": "location",
+        "type": "text",
+        "label": "Location"
+      }
+    ]
+  },
+  {
+    "name": "whyItMatters",
+    "type": "text",
+    "label": "Why It Matters"
+  },
+  {
+    "name": "suggestedOpener",
+    "type": "text",
+    "label": "Suggested Opener"
+  },
+  {
+    "name": "talkingPoints",
+    "type": "array",
+    "label": "Talking Points",
+    "spec": {
+      "type": "text"
+    }
+  },
+  {
+    "name": "postPreview",
+    "type": "text",
+    "label": "Post Preview"
+  },
+  {
+    "name": "createdAt",
+    "type": "date",
+    "label": "Detected At"
+  }
+]

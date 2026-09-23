@@ -1,0 +1,10 @@
+{
+  "url": "/intelligence/accounts",
+  "method": "POST",
+  "body": {
+    "companyUrl": "{{parameters.companyUrl}}"
+  },
+  "response": {
+    "output": "{{body.data}}"
+  }
+}

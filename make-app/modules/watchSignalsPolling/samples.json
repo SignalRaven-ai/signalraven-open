@@ -1,0 +1,18 @@
+{
+  "id": "3f9c2a1e-0000-4000-8000-000000000001",
+  "type": "KEYWORD_SEARCH_COMMENT",
+  "strength": 9,
+  "person": {
+    "company": "Halvorsen Consulting",
+    "linkedinUrl": "https://www.linkedin.com/in/example",
+    "location": "London, United Kingdom"
+  },
+  "whyItMatters": "Director of Corporate Events is actively talking about venue holds disappearing for next year's leadership summit.",
+  "suggestedOpener": "Saw your note on venue holds disappearing for next year's summit. How far out are you sourcing now?",
+  "talkingPoints": [
+    "Venue holds are disappearing earlier this cycle.",
+    "Summit planning is starting earlier than last year."
+  ],
+  "postPreview": "Venue holds for next year are already gone in three cities we looked at.",
+  "createdAt": "2026-09-15T14:02:00.000Z"
+}

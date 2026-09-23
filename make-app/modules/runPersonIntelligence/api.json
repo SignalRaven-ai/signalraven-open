@@ -1,0 +1,11 @@
+{
+  "url": "/intelligence/people",
+  "method": "POST",
+  "body": {
+    "personUrl": "{{parameters.personUrl}}",
+    "sourceCompanyReportId": "{{ifempty(parameters.sourceCompanyReportId, undefined)}}"
+  },
+  "response": {
+    "output": "{{body.data}}"
+  }
+}

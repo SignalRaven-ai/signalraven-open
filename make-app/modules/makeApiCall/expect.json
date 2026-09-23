@@ -1,0 +1,40 @@
+[
+  {
+    "name": "url",
+    "type": "text",
+    "label": "URL",
+    "required": true,
+    "help": "A path relative to `https://api.signalraven.ai/api/v1`, query string included. For example: `signals?limit=5&minStrength=7`"
+  },
+  {
+    "name": "method",
+    "type": "select",
+    "label": "Method",
+    "required": true,
+    "default": "GET",
+    "options": [
+      {
+        "label": "GET",
+        "value": "GET"
+      },
+      {
+        "label": "POST",
+        "value": "POST"
+      },
+      {
+        "label": "PATCH",
+        "value": "PATCH"
+      },
+      {
+        "label": "DELETE",
+        "value": "DELETE"
+      }
+    ]
+  },
+  {
+    "name": "body",
+    "type": "any",
+    "label": "Body",
+    "help": "JSON body for POST and PATCH."
+  }
+]

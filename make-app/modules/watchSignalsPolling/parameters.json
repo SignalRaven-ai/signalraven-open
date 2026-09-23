@@ -1,0 +1,24 @@
+[
+  {
+    "name": "minStrength",
+    "type": "uinteger",
+    "label": "Minimum Strength",
+    "help": "Only signals with a strength score at or above this value, 0 to 10. Use 7 for warm, 9 for the strongest.",
+    "required": false
+  },
+  {
+    "name": "type",
+    "type": "text",
+    "label": "Signal Type",
+    "help": "Filter by signal type, for example KEYWORD_SEARCH_COMMENT. Leave empty for all types.",
+    "required": false
+  },
+  {
+    "name": "limit",
+    "type": "uinteger",
+    "label": "Limit",
+    "help": "Maximum number of results to return and work with during one execution cycle.",
+    "default": 10,
+    "required": true
+  }
+]

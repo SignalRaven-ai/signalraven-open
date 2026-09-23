@@ -1,0 +1,6 @@
+{
+  "typeId": 4,
+  "label": "Get an Account Report",
+  "description": "Fetches an account research report: firmographics, the buying committee, disposition and openers.",
+  "connection": "signalraven"
+}

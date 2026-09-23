@@ -1,0 +1,21 @@
+{
+  "url": "/intelligence",
+  "method": "GET",
+  "qs": {
+    "type": "{{parameters.type}}",
+    "q": "{{parameters.q}}",
+    "limit": 100,
+    "offset": 0
+  },
+  "response": {
+    "iterate": "{{body.data}}",
+    "output": "{{item}}",
+    "limit": "{{parameters.limit}}"
+  },
+  "pagination": {
+    "qs": {
+      "offset": "{{pagination.page * 100}}"
+    },
+    "condition": "{{length(body.data) == 100}}"
+  }
+}

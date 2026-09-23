@@ -1,0 +1,33 @@
+[
+  {
+    "name": "type",
+    "type": "select",
+    "label": "Report Type",
+    "required": false,
+    "options": [
+      {
+        "label": "Account",
+        "value": "account"
+      },
+      {
+        "label": "Person",
+        "value": "person"
+      }
+    ]
+  },
+  {
+    "name": "q",
+    "type": "text",
+    "label": "Search",
+    "required": false,
+    "help": "Match by person or company name, for example Halvorsen Consulting."
+  },
+  {
+    "name": "limit",
+    "type": "uinteger",
+    "label": "Limit",
+    "help": "Maximum number of results to return and work with during one execution cycle.",
+    "default": 25,
+    "required": true
+  }
+]

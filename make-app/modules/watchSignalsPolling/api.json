@@ -1,0 +1,20 @@
+{
+  "url": "/signals",
+  "method": "GET",
+  "qs": {
+    "limit": 100,
+    "minStrength": "{{parameters.minStrength}}",
+    "type": "{{parameters.type}}"
+  },
+  "response": {
+    "iterate": "{{body.data}}",
+    "output": "{{item}}",
+    "limit": "{{parameters.limit}}",
+    "trigger": {
+      "id": "{{item.id}}",
+      "date": "{{item.createdAt}}",
+      "type": "date",
+      "order": "desc"
+    }
+  }
+}

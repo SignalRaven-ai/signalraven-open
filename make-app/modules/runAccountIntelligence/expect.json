@@ -1,0 +1,9 @@
+[
+  {
+    "name": "companyUrl",
+    "type": "url",
+    "label": "Company LinkedIn URL",
+    "required": true,
+    "help": "For example https://www.linkedin.com/company/example"
+  }
+]

@@ -1,0 +1,25 @@
+[
+  {
+    "name": "clientId",
+    "type": "text",
+    "label": "Client ID",
+    "required": true,
+    "help": "From SignalRaven: Settings, then API keys, at [app.signalraven.ai](https://app.signalraven.ai)."
+  },
+  {
+    "name": "clientSecret",
+    "type": "password",
+    "label": "Client Secret",
+    "required": true,
+    "help": "Shown once when the API key is created."
+  },
+  {
+    "name": "scopes",
+    "type": "text",
+    "label": "Scopes",
+    "required": true,
+    "default": "read:signals read:sources read:watchlist read:icp read:intelligence read:usage read:destinations write:intelligence write:destinations",
+    "advanced": true,
+    "help": "Space-separated scopes to request. Remove any the key was created without."
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "typeId": 4,
+  "label": "Get a Signal",
+  "description": "Fetches one signal by ID with the full write-up: why it matters, the suggested opener and talking points.",
+  "connection": "signalraven"
+}

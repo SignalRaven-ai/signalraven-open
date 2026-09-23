@@ -1,0 +1,10 @@
+{
+  "name": "signalraven",
+  "label": "SignalRaven",
+  "description": "LinkedIn buying-intent signals, prospect and account research, and openers from your SignalRaven workspace.",
+  "version": 1,
+  "theme": "#F59E4C",
+  "language": "en",
+  "countries": [],
+  "beta": false
+}

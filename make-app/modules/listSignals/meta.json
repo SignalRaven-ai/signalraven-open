@@ -1,0 +1,6 @@
+{
+  "typeId": 9,
+  "label": "List Signals",
+  "description": "Lists qualified buying-intent signals, newest first, with optional minimum strength and type filters.",
+  "connection": "signalraven"
+}

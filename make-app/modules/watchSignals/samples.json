@@ -1,0 +1,19 @@
+{
+  "signalId": "3f9c2a1e-0000-4000-8000-000000000001",
+  "signalDetailUrl": "https://app.signalraven.ai/signals/3f9c2a1e-0000-4000-8000-000000000001",
+  "signalType": "KEYWORD_SEARCH_COMMENT",
+  "strength": 9,
+  "personName": "Marcus Feld",
+  "personTitle": "Director of Corporate Events",
+  "personCompany": "Halvorsen Consulting",
+  "personLinkedinUrl": "https://www.linkedin.com/in/example",
+  "personLocation": "London, United Kingdom",
+  "companyIndustry": "Professional Services",
+  "companyEmployeeCount": 850,
+  "whyItMatters": "Director of Corporate Events is actively talking about venue holds disappearing for next year's leadership summit.",
+  "suggestedOpener": "Saw your note on venue holds disappearing for next year's summit. How far out are you sourcing now?",
+  "talkingPoints": [
+    "Venue holds are disappearing earlier this cycle.",
+    "Summit planning is starting earlier than last year."
+  ]
+}

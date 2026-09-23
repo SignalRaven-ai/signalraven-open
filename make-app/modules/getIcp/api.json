@@ -1,0 +1,7 @@
+{
+  "url": "/icp",
+  "method": "GET",
+  "response": {
+    "output": "{{body.data}}"
+  }
+}

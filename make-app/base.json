@@ -1,0 +1,15 @@
+{
+  "baseUrl": "https://api.signalraven.ai/api/v1",
+  "headers": {
+    "authorization": "Bearer {{connection.accessToken}}",
+    "accept": "application/json"
+  },
+  "response": {
+    "error": {
+      "message": "[{{statusCode}}] {{ifempty(body.message, ifempty(body.error, 'SignalRaven API error'))}}"
+    }
+  },
+  "log": {
+    "sanitize": ["request.headers.authorization"]
+  }
+}

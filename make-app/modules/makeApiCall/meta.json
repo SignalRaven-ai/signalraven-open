@@ -1,0 +1,6 @@
+{
+  "typeId": 12,
+  "label": "Make an API Call",
+  "description": "Performs an arbitrary authorized API call.",
+  "connection": "signalraven"
+}

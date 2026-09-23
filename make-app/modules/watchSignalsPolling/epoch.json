@@ -1,0 +1,15 @@
+{
+  "url": "/signals",
+  "method": "GET",
+  "qs": {
+    "limit": 100
+  },
+  "response": {
+    "iterate": "{{body.data}}",
+    "limit": 500,
+    "output": {
+      "date": "{{item.createdAt}}",
+      "label": "{{item.person.company}} (strength {{item.strength}})"
+    }
+  }
+}

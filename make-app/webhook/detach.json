@@ -1,0 +1,4 @@
+{
+  "url": "/destinations/{{webhook.externalHookId}}",
+  "method": "DELETE"
+}

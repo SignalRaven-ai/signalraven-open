@@ -1,0 +1,7 @@
+{
+  "typeId": 10,
+  "label": "Watch Signals",
+  "description": "Triggers when SignalRaven delivers a new qualified buying-intent signal. Instant: registers a webhook destination in your workspace.",
+  "connection": "signalraven",
+  "webhook": "signalraven"
+}

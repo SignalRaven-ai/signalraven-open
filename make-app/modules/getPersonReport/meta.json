@@ -1,0 +1,6 @@
+{
+  "typeId": 4,
+  "label": "Get a Person Report",
+  "description": "Fetches a person research report: who they are, what they engaged with, the ICP read and talking points.",
+  "connection": "signalraven"
+}

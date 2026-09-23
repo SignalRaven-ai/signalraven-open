@@ -1,0 +1,6 @@
+{
+  "typeId": 4,
+  "label": "Get Usage",
+  "description": "Fetches workspace activity counts and whether the pipeline is operational.",
+  "connection": "signalraven"
+}

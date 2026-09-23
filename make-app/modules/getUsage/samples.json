@@ -1,0 +1,12 @@
+{
+  "activity": {
+    "signalsThisMonth": 42,
+    "signalsLastMonth": 37,
+    "activeSources": 12,
+    "postsMonitored": 1180
+  },
+  "systemStatus": {
+    "lastActivityAt": "2026-09-15T09:20:00.000Z",
+    "operational": true
+  }
+}

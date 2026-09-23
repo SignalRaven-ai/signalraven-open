@@ -1,0 +1,6 @@
+{
+  "typeId": 9,
+  "label": "List Watchlist Posts",
+  "description": "Lists posts from the named accounts and people being tracked.",
+  "connection": "signalraven"
+}

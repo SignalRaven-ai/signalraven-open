@@ -1,0 +1,6 @@
+{
+  "typeId": 4,
+  "label": "Get the ICP",
+  "description": "Fetches the ideal customer profile: company size, industries, titles, personas and seniority.",
+  "connection": "signalraven"
+}

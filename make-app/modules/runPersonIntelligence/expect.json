@@ -1,0 +1,16 @@
+[
+  {
+    "name": "personUrl",
+    "type": "url",
+    "label": "Person LinkedIn URL",
+    "required": true,
+    "help": "For example https://www.linkedin.com/in/example"
+  },
+  {
+    "name": "sourceCompanyReportId",
+    "type": "text",
+    "label": "Source Account Report ID",
+    "required": false,
+    "help": "Optional account report to attach this person to."
+  }
+]

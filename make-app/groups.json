@@ -1,0 +1,36 @@
+[
+  {
+    "label": "Signals",
+    "modules": [
+      "watchSignals",
+      "watchSignalsPolling",
+      "listSignals",
+      "getSignal"
+    ]
+  },
+  {
+    "label": "Research",
+    "modules": [
+      "listIntelligenceReports",
+      "getAccountReport",
+      "getPersonReport",
+      "runAccountIntelligence",
+      "runPersonIntelligence"
+    ]
+  },
+  {
+    "label": "Workspace",
+    "modules": [
+      "listSources",
+      "listWatchlistPosts",
+      "getIcp",
+      "getUsage"
+    ]
+  },
+  {
+    "label": "Other",
+    "modules": [
+      "makeApiCall"
+    ]
+  }
+]

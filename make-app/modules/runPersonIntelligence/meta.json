@@ -1,0 +1,6 @@
+{
+  "typeId": 4,
+  "label": "Run Person Intelligence",
+  "description": "Starts a person research report for a LinkedIn profile URL. Spends credits unless a recent report exists, in which case the cached report is returned.",
+  "connection": "signalraven"
+}

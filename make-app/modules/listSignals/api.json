@@ -1,0 +1,21 @@
+{
+  "url": "/signals",
+  "method": "GET",
+  "qs": {
+    "minStrength": "{{parameters.minStrength}}",
+    "type": "{{parameters.type}}",
+    "limit": 100,
+    "offset": 0
+  },
+  "response": {
+    "iterate": "{{body.data}}",
+    "output": "{{item}}",
+    "limit": "{{parameters.limit}}"
+  },
+  "pagination": {
+    "qs": {
+      "offset": "{{pagination.page * 100}}"
+    },
+    "condition": "{{length(body.data) == 100}}"
+  }
+}

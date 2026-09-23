@@ -1,0 +1,52 @@
+[
+  {
+    "name": "id",
+    "type": "text",
+    "label": "Source ID"
+  },
+  {
+    "name": "type",
+    "type": "text",
+    "label": "Source Type"
+  },
+  {
+    "name": "displayName",
+    "type": "text",
+    "label": "Name"
+  },
+  {
+    "name": "linkedinUrl",
+    "type": "url",
+    "label": "LinkedIn URL"
+  },
+  {
+    "name": "isActive",
+    "type": "boolean",
+    "label": "Active"
+  },
+  {
+    "name": "strengthScore",
+    "type": "number",
+    "label": "Strength Score"
+  },
+  {
+    "name": "signalCount",
+    "type": "number",
+    "label": "Signals"
+  },
+  {
+    "name": "totalPosts",
+    "type": "number",
+    "label": "Posts"
+  },
+  {
+    "name": "qualifiedPosts",
+    "type": "number",
+    "label": "Qualified Posts"
+  },
+  {
+    "name": "createdAt",
+    "type": "date",
+    "label": "Created At"
+  }
+]

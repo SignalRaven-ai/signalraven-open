@@ -1,0 +1,6 @@
+{
+  "typeId": 4,
+  "label": "Run Account Intelligence",
+  "description": "Starts an account research report for a company LinkedIn URL. Spends credits unless a recent report exists, in which case the cached report is returned.",
+  "connection": "signalraven"
+}

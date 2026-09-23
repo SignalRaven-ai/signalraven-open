@@ -1,0 +1,6 @@
+{
+  "typeId": 9,
+  "label": "List Sources",
+  "description": "Lists the LinkedIn sources being monitored, with signal counts and a strength score for each.",
+  "connection": "signalraven"
+}

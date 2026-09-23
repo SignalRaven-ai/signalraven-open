@@ -1,0 +1,6 @@
+{
+  "typeId": 9,
+  "label": "List Intelligence Reports",
+  "description": "Lists person and account research reports, optionally filtered by type or matched by name.",
+  "connection": "signalraven"
+}
